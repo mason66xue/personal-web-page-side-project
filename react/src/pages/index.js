@@ -1,7 +1,8 @@
-import Head from 'next/head'
+import Head from 'next/head';
+// import {BsFillMoonStarsFill} from 'react-icons/bs';
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -14,7 +15,17 @@ export default function Home() {
       </Head>
       
       <main>
-        <section className='bg-blue-700 h-screen  '></section>
+        <section className='bg-blue-700 h-screen  '>
+          <nav className='py-10 mb-12 flex justify-between '>
+            <h1>Daily News</h1>
+            <ul>
+              <li>
+              {/* <BsFillMoonStarsFill /> */}
+              </li>
+              <li><a herf='#'>About Me</a></li>
+            </ul>
+          </nav>
+        </section>
       </main>
       </div>
                
