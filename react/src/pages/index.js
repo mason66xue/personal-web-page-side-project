@@ -13,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main></main>
+      <main>
+        <section className='bg-blue-700 h-screen  '></section>
+      </main>
       </div>
                
           
